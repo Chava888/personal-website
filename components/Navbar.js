@@ -15,22 +15,22 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className={styles.labels}>
-                    <Link href="About">
+                    <Link href="/About">
                         <a>About</a>
                     </Link>
                 </li>
                 <li className={styles.labels}>
-                    <Link href="Portfolio">
+                    <Link href="/Portfolio">
                         <a>Portfolio</a>
                     </Link>
                 </li>
                 <li className={styles.labels}>
-                    <Link href="Blog">
+                    <Link href="/Blog">
                         <a>Blog</a>
                     </Link>
                 </li>
                 <li className={styles.labels}>
-                    <Link href="Contact">
+                    <Link href="/Contact">
                         <a>Contact</a>
                     </Link>
                 </li>
