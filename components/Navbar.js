@@ -11,27 +11,27 @@ function Navbar() {
             <ul className={styles.nav}>
                 <li className={styles.labels}>
                     <Link href="/">
-                        <a>Home</a>
+                        <a className={styles.navbarAnchors}>Home</a>
                     </Link>
                 </li>
                 <li className={styles.labels}>
                     <Link href="/About">
-                        <a>About</a>
+                        <a className={styles.navbarAnchors}>About</a>
                     </Link>
                 </li>
                 <li className={styles.labels}>
                     <Link href="/Portfolio">
-                        <a>Portfolio</a>
+                        <a className={styles.navbarAnchors}>Portfolio</a>
                     </Link>
                 </li>
                 <li className={styles.labels}>
                     <Link href="/Blog">
-                        <a>Blog</a>
+                        <a className={styles.navbarAnchors}>Blog</a>
                     </Link>
                 </li>
                 <li className={styles.labels}>
                     <Link href="/Contact">
-                        <a>Contact</a>
+                        <a className={styles.navbarAnchors}>Contact</a>
                     </Link>
                 </li>
             </ul>

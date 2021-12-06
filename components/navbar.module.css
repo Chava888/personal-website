@@ -1,6 +1,4 @@
 .container{
-    /* background-color: #1E88E5; */
-    background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,13,121,1) 0%, rgba(1,186,238,1) 93%, rgba(0,212,255,1) 100%);
     position: fixed;
     width: 100%;
@@ -65,3 +63,63 @@
   .labels:hover::before {
     transform: scaleX(1);
   }
+
+
+
+  @media screen and (max-width: 792px){
+    .container{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .nav{
+    display: flex;
+    justify-content: space-between ;
+    padding: 0;
+    }
+    
+    #name{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .container{
+      padding: 0;
+    }
+    
+    .nav{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    }
+
+    .labels{
+      text-align: center;
+    }
+
+    .labels:hover{
+      background: rgb(2,0,36,0.2);
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    .labels:hover::before {
+      transform: scaleX(0);
+    }
+    
+    .navbarAnchors{
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    #name{
+      display: none;
+    }
+  }
+
+  /* Need to make 100% width for 600px viewport */

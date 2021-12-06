@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       <Navbar />
       <h1>Main Page</h1>
-      <img src="/images/Davis.jpg" alt="Davis Picture" />
+      {/* <img src="/images/Davis.jpg" alt="Davis Picture" /> */}
       <Footer />
     </div>
 
