@@ -5,7 +5,7 @@ function useToggle(initialValue = true) {
     //call useState,"set default initial state"
     const [value, setValue] = useState(initialValue);
     const toggle = () => {
-        setValue(!value)
+        setValue(value => !value)
     }
 
     return (
