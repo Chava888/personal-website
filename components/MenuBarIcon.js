@@ -29,10 +29,6 @@ function MenuBarIcon() {
                 </div>
             }
 
-
-
-
-
         </div >
     )
 
