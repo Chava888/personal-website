@@ -1,0 +1,46 @@
+.container{
+    background-color: aliceblue;
+height: 150px;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+
+#ruby{
+    transform: rotate(310deg) translate(0px, 20px);
+}
+
+#html5{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#css3{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#js{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#react{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#nodejs{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#bootstrap{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#github{
+    margin-right: 20px;
+    margin-left: 20px;
+}
