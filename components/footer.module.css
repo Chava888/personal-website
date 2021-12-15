@@ -8,19 +8,19 @@
 
 
 .iconBrands{
-display: flex;
-justify-content: space-evenly;
-/*invert function inverts the image from black to aliceblue
-drop-shadow function to create a shadow effect on the icons*/
-filter: drop-shadow(0px 5px 5px aliceblue) invert(100%);
-padding-top: 5px;
+   display: flex;
+   justify-content: space-evenly;
+   /*invert function inverts the image from black to aliceblue
+   drop-shadow function to create a shadow effect on the icons*/
+   filter: drop-shadow(0px 5px 5px aliceblue) invert(100%);
+   padding-top: 5px;
 }
 
 .yearEstablished{
    display: flex;
    justify-content: center;
    /*invert function inverts the content from black to aliceblue
-drop-shadow function to create a shadow effect on the label and icon*/
+   drop-shadow function to create a shadow effect on the label and icon*/
    filter: drop-shadow(0px 5px 5px aliceblue) invert(100%);
    padding-top: 10px;
 }
