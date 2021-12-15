@@ -11,7 +11,6 @@ export default function Home() {
     <div>
       <Header />
       <Navbar />
-      <h1>Main Page</h1>
       <TechnologiesList />
       {/* <img src="/images/Davis.jpg" alt="Davis Picture" /> */}
       <Footer />
