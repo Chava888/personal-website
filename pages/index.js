@@ -3,21 +3,24 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import TechnologiesList from '../components/TechnologiesList'
-// import CarouselSlides from '../components/CarouselSlides'
-// import './node_modules/bootstrap/dist/css/bootstrap.min.css'
+
+
 
 
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Header />
       <TechnologiesList />
+      <div className={styles.container}>
+        <h1 id={styles.welcome}>WELC😃ME</h1>
+        <h2 id={styles.description}>Hi am a developer to help you on your next project!</h2>
+      </div>
       {/* <img src="/images/Davis.jpg" alt="Davis Picture" /> */}
-      {/* <CarouselSlides /> */}
-      <Footer />
       <Navbar />
-    </div>
+      <Footer />
+    </>
 
 
 

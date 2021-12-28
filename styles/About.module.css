@@ -1,0 +1,29 @@
+.aboutContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+#title{
+    justify-self: center;
+    color: aliceblue;
+  }
+
+  #photoContainer{
+    height: 350px;
+    width: 300px;
+    border: 2px  aliceblue solid;
+  }
+
+  #image{
+    height: 20px;
+    border: 2px  aliceblue solid;
+  }
+
+  #aboutContent{
+    color: aliceblue;
+  }
+
+  .profile{
+      display: flex;
+      justify-content:space-evenly;
+  }
