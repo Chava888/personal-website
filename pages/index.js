@@ -10,7 +10,7 @@ import TechnologiesList from '../components/TechnologiesList'
 
 export default function Home() {
   return (
-    <>
+    <div id={styles.wrapper}>
       <Header />
       <TechnologiesList />
       <div className={styles.container}>
@@ -20,9 +20,6 @@ export default function Home() {
       {/* <img src="/images/Davis.jpg" alt="Davis Picture" /> */}
       <Navbar />
       <Footer />
-    </>
-
-
-
+    </div>
   )
 }

@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './carouselTemplate.module.css'
 import Carousel from 'react-material-ui-carousel'
 import { Paper, Button } from '@mui/material'
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 
 export default function CarouselTemplate() {
@@ -9,8 +11,8 @@ export default function CarouselTemplate() {
 
     let items = [
         {
-            name: "Random Name #1",
-            description: "Probably the most random thing you have ever seen!"
+            name: <img src="/images/Davis.jpg" alt="Davis Picture" />,
+            description: "First Project"
         },
         {
             name: "Random Name #2",
@@ -21,8 +23,13 @@ export default function CarouselTemplate() {
 
 
     return (
-        <Carousel
+        <Carousel className={styles.size} style={{ position: "static" }}
             autoPlay={false}
+            fullHeightHover={true}
+            swipe={true}
+            NextIcon={<ArrowForwardIosIcon />}
+            PrevIcon={<ArrowBackIosNewIcon />}
+            navButtonsProps={{ style: { backgroundColor: 'darkblue' } }}
             next={(next, active) => console.log(`we left ${active}, and are now at ${next}`)}
             prev={(prev, active) => console.log(`we left ${active}, and are now at ${prev}`)}>
             {
