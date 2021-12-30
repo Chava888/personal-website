@@ -1,6 +1,7 @@
 .container{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,13,121,1) 0%, rgba(1,186,238,1) 93%, rgba(0,212,255,1) 100%);
     position: fixed;
+    z-index: 2;
     width: 100%;
     top: 0;
     left: 0;
