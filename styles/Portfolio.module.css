@@ -12,9 +12,9 @@
 
   .carousel{
       height: 90%;
-      width: 90%;
-      padding: 0px 20px 0px 20px;
-      background-color:rgb(27, 198, 12);
+      width: 75%;
+      padding: 20px 20px 0px 20px;
+      background-color:aliceblue;
       border-radius: 20px;
   }
 
