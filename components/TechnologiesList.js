@@ -11,32 +11,32 @@ function TechnologiesList() {
     const technology = [
 
 
-        <div id={styles.html5} >
+        <div id={styles.html5} key={1}>
             <i className="fab fa-html5 fa-8x"></i>
             <h3>HTML5</h3>
         </div>,
 
-        <div id={styles.css3} >
+        <div id={styles.css3} key={2}>
             <i className="fab fa-css3-alt fa-8x"></i>
             <h3>CSS3</h3>
         </div>,
 
-        <div id={styles.js} >
+        <div id={styles.js} key={3}>
             <i className="fab fa-js fa-8x"></i>
             <h3>JavaScript</h3>
         </div>,
 
-        <div id={styles.react} >
+        <div id={styles.react} key={4}>
             <i className="fab fa-react fa-8x"></i>
             <h3>React</h3>
         </div>,
 
-        <div id={styles.nodejs} >
+        <div id={styles.nodejs} key={5}>
             <i className="fab fa-node fa-8x"></i>
             <h3>Node JavaScript</h3>
         </div>,
 
-        <div id={styles.ruby} >
+        <div id={styles.ruby} key={6}>
             <div id={styles.rubyIcon}>
                 <i className="far fa-gem fa-8x"></i>
             </div>
@@ -44,12 +44,12 @@ function TechnologiesList() {
 
         </div>,
 
-        <div id={styles.bootstrap} >
+        <div id={styles.bootstrap} key={7}>
             <i className="fab fa-bootstrap fa-8x"></i>
             <h3>Bootstrap</h3>
         </div>,
 
-        <div id={styles.github} >
+        <div id={styles.github} key={8}>
             <i className="fab fa-github fa-8x" ></i>
             <h3>Github</h3>
         </div>
